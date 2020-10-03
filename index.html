@@ -1,10 +1,3 @@
-
-                    <script>
-                        function submitClicked(event){
-                            event.preventDefault();
-                            alert("I dont give a shit what you fill! Psych");
-                        }
-                    </script>
 <HTML>
     <Head>
         <Title> Assignment 9 </Title>
@@ -47,7 +40,10 @@
                 <BR>
                 <BR>
                 <BR>
-                    <button type="button" onClick="submitCicked(event)">Submit</button>
+                    <button type="button" onClick="(event) => {
+                            alert("I dont give a shit what you fill! Psych");
+                        
+                                                   }">Submit</button>
             <Input type="Reset" Value="Reset">
                 
         </Form>
