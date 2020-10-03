@@ -40,10 +40,12 @@
                 <BR>
                 <BR>
                 <BR>
-                    <button type="button" onClick="(event) => {
+                    <script>
+                        function submitClicked(event){
                             alert("I dont give a shit what you fill! Psych");
-                        
-                                                   }">Submit</button>
+                        }
+                    </script>
+                    <button type="button" onclick="submitClicked(event)">Submit</button>
             <Input type="Reset" Value="Reset">
                 
         </Form>
