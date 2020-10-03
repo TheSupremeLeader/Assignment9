@@ -40,9 +40,15 @@
                 <BR>
                 <BR>
                 <BR>
-            <Input type="Submit" Value="Submit">
+                    <button type="button" onClick="submitCicked(event)">Submit</button>
             <Input type="Reset" Value="Reset">
                 
         </Form>
     </Body>
 </HTML>
+                    <script>
+                        function submitClicked(event){
+                            event.preventDefault();
+                            alert("I dont give a shit what you fill! Psych");
+                        }
+                    </script>
